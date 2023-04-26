@@ -18,3 +18,4 @@
 6.Reun Second Migration - Seed Data: OK 
 
 7. Create new Scafold Item(right click on the Controllers)  - aselect MVC Web Controller with EF 
+
