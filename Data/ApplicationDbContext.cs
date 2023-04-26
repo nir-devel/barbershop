@@ -8,6 +8,7 @@ namespace BarberShop.Data
         public ApplicationDbContext(DbContextOptions options):base(options)
         {
             
+
         }
 
         public DbSet<HairCut> HairCuts { get; set; }
