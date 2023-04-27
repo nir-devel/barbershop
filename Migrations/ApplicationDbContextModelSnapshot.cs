@@ -50,14 +50,14 @@ namespace BarberShop.Migrations
                         {
                             Id = 1,
                             Barber = "Samuel",
-                            Date = new DateTime(2023, 4, 26, 21, 12, 48, 110, DateTimeKind.Local).AddTicks(9961),
+                            Date = new DateTime(2023, 4, 27, 15, 6, 24, 682, DateTimeKind.Local).AddTicks(8489),
                             Type = "Buzz Cut"
                         },
                         new
                         {
                             Id = 2,
                             Barber = "Nir",
-                            Date = new DateTime(2023, 4, 26, 21, 12, 48, 110, DateTimeKind.Local).AddTicks(9994),
+                            Date = new DateTime(2023, 4, 27, 15, 6, 24, 682, DateTimeKind.Local).AddTicks(8524),
                             Type = "Pompadur"
                         });
                 });

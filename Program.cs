@@ -8,7 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
+//BarberShopDBConnectionStringVS
 options.UseSqlServer(builder.Configuration.GetConnectionString("BarberShopDBConnectionString")));
+//options.UseSqlServer(builder.Configuration.GetConnectionString("BarberShopDBConnectionStringVS")));
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();

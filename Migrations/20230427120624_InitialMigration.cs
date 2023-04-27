@@ -172,12 +172,12 @@ namespace BarberShop.Migrations
             migrationBuilder.InsertData(
                 table: "HairCuts",
                 columns: new[] { "Id", "Barber", "Date", "Type" },
-                values: new object[] { 1, "Samuel", new DateTime(2023, 4, 26, 21, 12, 48, 110, DateTimeKind.Local).AddTicks(9961), "Buzz Cut" });
+                values: new object[] { 1, "Samuel", new DateTime(2023, 4, 27, 15, 6, 24, 682, DateTimeKind.Local).AddTicks(8489), "Buzz Cut" });
 
             migrationBuilder.InsertData(
                 table: "HairCuts",
                 columns: new[] { "Id", "Barber", "Date", "Type" },
-                values: new object[] { 2, "Nir", new DateTime(2023, 4, 26, 21, 12, 48, 110, DateTimeKind.Local).AddTicks(9994), "Pompadur" });
+                values: new object[] { 2, "Nir", new DateTime(2023, 4, 27, 15, 6, 24, 682, DateTimeKind.Local).AddTicks(8524), "Pompadur" });
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
